@@ -7,6 +7,7 @@
 ul{
   list-style-type: none;
 }
+
 body{
   background: #f2f2f2;
   font-family: 'Lexend Deca', sans-serif;
@@ -62,7 +63,7 @@ body{
 }
 
 .botao-sedans{
-  border: none;
+  border: 2px solid hsl(0, 0%, 95%);
   background: hsl(0, 0%, 95%);
   padding: 14px 32px;
   border-radius: 24px;
@@ -70,12 +71,12 @@ body{
   color: #e28525;
   font-weight: bold;
   cursor: pointer;
+  transition: .2s;
 }
 
 .botao-sedans:hover{
   background: #e28525;
   color: #fff;
-  border: 2px solid #fff;
 }
 
 .suv{
@@ -112,7 +113,7 @@ body{
 }
 
 .botao-suv{
-  border: none;
+  border: 2px solid hsl(0, 0%, 95%);
   background: hsl(0, 0%, 95%);
   padding: 14px 32px;
   border-radius: 24px;
@@ -120,14 +121,13 @@ body{
   color: #016972;
   font-weight: bold;
   cursor: pointer;
+  transition: .2s;
 }
 
 .botao-suv:hover{
   background: #016972;
   color: #fff;
-  border: 2px solid #fff;
 }
-
 
 .luxury{
   background: #00403f;
@@ -164,7 +164,7 @@ body{
 }
 
 .botao-luxury{
-  border: none;
+  border: 2px solid hsl(0, 0%, 95%);
   background: hsl(0, 0%, 95%);
   padding: 14px 32px;
   border-radius: 24px;
@@ -172,6 +172,7 @@ body{
   color: #00403f;
   font-weight: bold;
   cursor: pointer;
+  transition: .2s;
 }
 
 .botao-luxury:hover{
