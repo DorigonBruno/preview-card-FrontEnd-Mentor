@@ -1,0 +1,181 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+}
+body{
+  background: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.section-bg{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 900px;
+  height: 450px;
+}
+
+.sedans{
+  background: #e28525;
+  padding: 20px 40px 20px 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  max-width: 300px;
+  border-radius: 5px 0 0 5px;
+}
+
+.sedans h1{
+  position: relative;
+  Font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+.sedans h1::before{
+  content: "";
+  display: block;
+  background-image: url("../images/icon-sedans.svg");
+  width: 64px;
+  height: 40px;
+  position: absolute;
+  top: -65px;
+}
+
+.sedans p{
+  margin-bottom: 70px;
+  font-size: 0.93rem;
+  max-width: 200px;
+}
+
+.botao-sedans{
+  border: none;
+  background: hsl(0, 0%, 95%);
+  padding: 14px 32px;
+  border-radius: 24px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.111);
+  color: #e28525;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-sedans:hover{
+  background: #e28525;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.suv{
+  background: #016972;
+  padding: 20px 40px 20px 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  max-width: 300px;
+}
+
+.suv h1{
+  position: relative;
+  Font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+.suv h1::before{
+  content: "";
+  display: block;
+  background-image: url("../images/icon-suvs.svg");
+  width: 64px;
+  height: 40px;
+  position: absolute;
+  top: -65px;
+}
+
+.suv p{
+  margin-bottom: 70px;
+  font-size: 0.93rem;
+  max-width: 200px;
+}
+
+.botao-suv{
+  border: none;
+  background: hsl(0, 0%, 95%);
+  padding: 14px 32px;
+  border-radius: 24px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.111);
+  color: #016972;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-suv:hover{
+  background: #016972;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+.luxury{
+  background: #00403f;
+  padding: 20px 40px 20px 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  max-width: 300px;
+  border-radius: 0 5px 5px 0;
+}
+
+.luxury h1{
+  position: relative;
+  Font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+.luxury h1::before{
+  content: "";
+  display: block;
+  background-image: url("../images/icon-luxury.svg");
+  width: 64px;
+  height: 40px;
+  position: absolute;
+  top: -65px;
+}
+
+.luxury p{
+  margin-bottom: 70px;
+  font-size: 0.93rem;
+  max-width: 200px;
+}
+
+.botao-luxury{
+  border: none;
+  background: hsl(0, 0%, 95%);
+  padding: 14px 32px;
+  border-radius: 24px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.111);
+  color: #00403f;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-luxury:hover{
+  background: #00403f;
+  color: #fff;
+  border: 2px solid #fff;
+}
